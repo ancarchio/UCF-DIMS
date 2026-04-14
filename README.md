@@ -106,4 +106,4 @@
   5. If issues persist, the sensor may require replacement
 
 >[!NOTE]
->All connections and input/output 
+>All connections and input/output indexes can be found in the README under DIMS-Source
