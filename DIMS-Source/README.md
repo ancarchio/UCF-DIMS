@@ -15,6 +15,9 @@ The following libraries are needed:
 * [Adafruit SSD1306](https://github.com/adafruit/Adafruit_SSD1306) by Adafruit
 * [MAX6675 Library](https://github.com/adafruit/MAX6675-library) by Adafruit
 
+### Program Flowchart
+<img width="455" height="490" alt="image" src="https://github.com/user-attachments/assets/65d2a5a4-0824-4e89-bdcb-48f1198c53fa" />
+
 # Input/Output Indexes
 
 The communication between the Arduino and the WinForms App is done using Serial communication with the following format:
