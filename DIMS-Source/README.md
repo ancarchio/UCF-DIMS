@@ -18,6 +18,96 @@ The following libraries are needed:
 ### Program Flowchart
 <img width="455" height="490" alt="image" src="https://github.com/user-attachments/assets/65d2a5a4-0824-4e89-bdcb-48f1198c53fa" />
 
+# Pin Connections
+
+### Thermocouples
+| BT1: |        |
+|------|--------|
+| GND  | Ground |
+| VDD  | 5V     |
+| SCK  | 36     |
+| CS   | 34     |
+| DO   | 37     |
+
+| BT2: |        |
+|------|--------|
+| GND  | Ground |
+| VDD  | 5V     |
+| SCK  | 36     |
+| CS   | 29     |
+| DO   | 37     |
+
+| ET: |        |
+|-----|--------|
+| GND | Ground |
+| VDD | 5V     |
+| SCK | 39     |
+| CS  | 42     |
+| DO  | 38     |
+
+| ET: |        |
+|-----|--------|
+| GND | Ground |
+| VDD | 5V     |
+| SCK | 39     |
+| CS  | 43     |
+| DO  | 38     |
+
+### Magnetic Reed Sensors
+
+| G1:   |        |
+|-------|--------|
+| Brown | Ground |
+| Blue  | 24     |
+
+| G2:    |        |
+|--------|--------|
+| Brown  | Ground |
+| Orange | 25     |
+
+### Relays
+
+| Double Relay |          |
+|--------------|----------|
+| DC-          | Ground   |
+| DC+          | 5V       |
+| IN1          | 32 (sol) |
+| IN2          | 33 (fan) |
+| NO1          | Sol +    |
+| COM1         | Power +  |
+| NC1          | Nothing  |
+| NO2          | ACDC,AC+ |
+| COM2         | Power, + |
+| NC2          | Nothing  |
+
+**Fans**
+* Relay connects to AC+ on AC to DC converter
+* Ground on AC cord connects to AC- on AC to DC converter
+* Farthest pin on fans (inidicated by arrow), connects to DC- on AC to DC converter
+* Next pin on fans connects to DC+ on AC to DC converter
+
+**Solenoids**
+* Relay connects to one side of the solenoids (red wire)
+* Other wire (black) on solenoids connects to AC cord
+
+| IOT Relay |         |
+|-----------|---------|
+| Black (-) | Ground  |
+| White (+) | 28      |
+| Norm. Off | Heaters |
+
+### Interface 
+
+| OLED: |        |
+|-------|--------|
+| GND   | Ground |
+| VDD   | 5V     |
+| SDA   | 20     |
+| SCL   | 21     |
+
+**Keypad:**
+46-53, From * -> D in order
+
 # Input/Output Indexes
 
 The communication between the Arduino and the WinForms App is done using Serial communication with the following format:
