@@ -1,14 +1,14 @@
 ## Linktree: https://linktr.ee/UCF_DIMS
 
 ## Contents:
-- DIMS.exe: WinForms App for installation/use, not editable
-- DIMS-Source
-  * DIMS-Application.zip: Full, editable project files for winforms app
+- [DIMS.exe](DIMS.exe): WinForms App for installation/use, not editable
+- [DIMS-Source](DIMS-Source)
+  * [DIMS-Application.zip](DIMS-Source/DIMS-application.zip): Full, editable project files for winforms app
   * Arduino program (must be opened in a folder together)
-    * DIMS.h: Header file with pin definitions and setup
-    * DIMS.ino: Main file with menu and helper functions
-    * InjectProcess.cpp: Includes the injection process and data collection functions
-- DIMS-Assembly: Parts files for machine (all included files required to open assembly)
+    * [DIMS.h](DIMS-Source/DIMS.h): Header file with pin definitions and setup
+    * [DIMS.ino](DIMS-Source/DIMS.ino): Main file with menu and helper functions
+    * [InjectProcess.cpp](DIMS-Source/InjectProcess.cpp): Includes the injection process and data collection functions
+- [DIMS-Assembly](DIMS-Assembly): Parts files for machine (all included files required to open assembly)
   * Full Assembly.SLDASM: Assembly File
   * Pieces.zip: Individual Parts
 
@@ -117,4 +117,4 @@
   5. If issues persist, the sensor may require replacement
 
 >[!NOTE]
->All connections and input/output indexes can be found in the README under DIMS-Source
+>All connections and input/output indexes can be found in the [README](DIMS-Source/README.md) under DIMS-Source
