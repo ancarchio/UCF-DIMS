@@ -1,5 +1,16 @@
 ## Linktree: https://linktr.ee/UCF_DIMS
 
+## Contents:
+- DIMS.exe: WinForms App for installation/use, not editable
+- DIMS-Source
+  * DIMS-Application.zip: Full, editable project files for winforms app
+  * Arduino program (must be opened in a folder together)
+    * DIMS.h: Header file with pin definitions and setup
+    * DIMS.ino: Main file with menu and helper functions
+    * InjectProcess.cpp: Includes the injection process and data collection functions
+- DIMS-Assembly: Parts files for machine (all included files required to open assembly)
+  * Full Assembly.SLDASM: Assembly File
+  * Pieces.zip: Individual Parts
 
 ## To Use:
 **READ THE FULL MANUAL BEFORE USE**
