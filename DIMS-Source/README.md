@@ -1,3 +1,20 @@
+# Using This Folder
+## DIMS-Application.zip
+This folder contains the project files for the DIMS WinForms App. This will allow you to edit the application. Download and extract the zip and open the solution in your IDE of choice (Visual Studio is recommended, as it was used to create the original application)
+
+## Arduino Program
+1. DIMS.ino
+2. DIMS.h
+3. InjectProcess.cpp
+
+Download all 3 program files and open in the Arduino IDE.
+
+The following libraries are needed:
+* Arduino and Wire (both included with Arduino IDE)
+* [Keypad](https://playground.arduino.cc/Code/Keypad/) by Mark Stanley and Alexander Brevig
+* [Adafruit SSD1306](https://github.com/adafruit/Adafruit_SSD1306) by Adafruit
+* [MAX6675 Library](https://github.com/adafruit/MAX6675-library) by Adafruit
+
 # Input/Output Indexes
 
 The communication between the Arduino and the WinForms App is done using Serial communication with the following format:
