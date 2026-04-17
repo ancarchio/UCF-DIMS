@@ -11,6 +11,7 @@
 - [DIMS-Assembly](DIMS-Assembly): Parts files for machine (all included files required to open assembly)
   * Full Assembly.SLDASM: Assembly File
   * Pieces.zip: Individual Parts
+  * Mold Files.zip: Example Duck Mold and Customizable Mold Template
 
 ## To Use:
 **READ THE FULL MANUAL BEFORE USE**
